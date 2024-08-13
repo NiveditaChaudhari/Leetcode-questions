@@ -29,7 +29,7 @@ class Solution:
         return new_arr
     
 
-nums=eval(input("Enter numbers separated by spaces: "))
+nums=eval(input("Enter numbers separated by spaces: ")) #[-1,0,1,2,-1,-4]
 sol = Solution()
 print("Index are: ",sol.threeSum(nums))
 
