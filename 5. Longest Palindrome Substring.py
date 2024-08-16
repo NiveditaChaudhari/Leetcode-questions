@@ -21,4 +21,4 @@ class Solution:
 
 s=input("Input the string: ")
 sol=Solution()
-print(sol.longestPalindrome(s))
+print(sol.longestPalindrozme(s))
