@@ -29,7 +29,7 @@ def print_LL(node:Optional[ListNode]):
     while node:
         arr.append(node.val)
         node=node.next
-    print(arr)
+    print(arr[::-1])
 
 
 l1 = (ListNode(2, ListNode(4, ListNode(3))))
